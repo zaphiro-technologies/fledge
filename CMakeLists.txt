@@ -15,7 +15,6 @@ endif()
 
 find_package(PkgConfig REQUIRED)
 
-add_subdirectory(C/common)
 add_subdirectory(C/services/common)
 add_subdirectory(C/plugins/common)
 add_subdirectory(C/plugins/filter/common)
